@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, NgModule} from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, NgModule} from '@angular/core';
 
 @Component({
   selector: 'app-button',
@@ -10,10 +10,14 @@ export class ButtonComponent implements OnInit {
   text!: String;
   @Input() 
   color!: String;
+  @Output() btnclick=new EventEmitter(); 
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+   onclick() {
+      this.btnclick.emit();
   }
+
 
 }
