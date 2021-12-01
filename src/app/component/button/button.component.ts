@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter, NgModule} from '@angular/core';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-button',
@@ -11,7 +12,8 @@ export class ButtonComponent implements OnInit {
   @Input() 
   color!: String;
   @Output() btnclick=new EventEmitter(); 
-
+  
+    faPlus = faPlus;
   constructor() { }
 
   ngOnInit(): void {}

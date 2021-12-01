@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Appoints } from 'src/app/appoints';
 
-
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -16,6 +16,7 @@ import { Appoints } from 'src/app/appoints';
 export class AppointItemComponent implements OnInit {
   @Input()
   Appoints!: Appoints; 
+  faTimes =faTimes;
 
 
   constructor() { }
