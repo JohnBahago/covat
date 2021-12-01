@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { appoints } from 'src/app/appointment';
+import { Appoints } from 'src/app/appoints';
+
+
+
 
 @Component({
   selector: 'app-appoints',
@@ -6,10 +11,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./appoints.component.css']
 })
 export class AppointsComponent implements OnInit {
-
+appoints: Appoints[] = appoints;
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

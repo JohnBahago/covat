@@ -1,12 +1,12 @@
-import {appoint} from './Appoint'
+import { Appoints} from './appoints'
 
 
 
-export const Appoint: appoint[]=[
+export const appoints: Appoints[]=[
 
     {
         id:1,
-        text: 'SuleimanSunday',
+        text: 'Suleiman Sunday',
         date: 'December 20th at 2:30pm',
         reminder: true,
     },

@@ -2,8 +2,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    margin-bottom: 2rem ;
+    margin-bottom: 20px ;
     border: 2px solid cornflowerblue;
     padding: 0px 1rem ;
-    background-color: darkgrey;
+    background-color: darkseagreen;
 } 

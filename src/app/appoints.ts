@@ -1,4 +1,4 @@
-export interface appoint{
+export interface Appoints{
 id?: number;
 text: string;
 date: string;
