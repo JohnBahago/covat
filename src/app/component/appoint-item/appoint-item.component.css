@@ -1,5 +1,6 @@
 .appoints{
     background: #a39d9d;
+    font-size:#ffffff ;
     cursor: pointer;
     margin-bottom: 1px;
     padding-left: 1rem;
@@ -8,11 +9,7 @@
    
     
 }
-.appoints.date{
-    display: flex;
-    
 
-}
 .appoints.reminder
 {
     border-left: 5px solid blueviolet;
