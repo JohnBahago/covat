@@ -1,0 +1,42 @@
+
+{"appointments":[
+
+
+{
+    
+    "id":1,
+    "text": "Suleiman Sunday",
+    "date": "December 20th at 2:30pm",
+    "reminder": true
+},
+
+{
+    "id":2,
+    "text": "Sule Sunday",
+    "date": "December 20th at 2:30pm",
+    "reminder": true
+},
+
+{
+    "id":3,
+    "text": "Suleiman friday",
+    "date": "December 20th at 2:30pm",
+    "reminder": true
+},
+
+{
+    "id":4,
+    "text": "Andrew Sunday",
+    "date": "December 20th at 2:30pm",
+    "reminder": true
+},
+
+
+{
+    "id":5,
+    "text": "Suman Sunday",
+    "date": "December 20th at 2:30pm",
+    "reminder": true
+}
+]
+}
